@@ -6,7 +6,7 @@
 
 [![Agency Preview](https://startbootstrap.com/assets/img/templates/agency.jpg)](https://blackrockdigital.github.io/startbootstrap-agency/)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
+**[View Live Preview](https://khsin0289.github.io/img/portfolio/04-thumbnail.jpg)**
 
 ## Status
 
