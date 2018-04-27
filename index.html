@@ -7,12 +7,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="">
-
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
 <title>Andy's Portfolio</title>
 
-<!-- Bootstrap core 
--->
+<!-- Bootstrap core -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom fonts for this template -->
@@ -25,8 +24,36 @@
 <!-- Custom styles for this template -->
 <link href="css/agency.min.css" rel="stylesheet">
 
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="css/swiper.min.css">
+  
 </head>
-
+ <style>
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
 <body id="page-top">
 
 	<!-- Navigation -->
@@ -483,10 +510,21 @@
 							<div class="modal-body">
 								<!-- Project Details Go Here -->
 								<h2 class="text-uppercase">OBELAB</h2>
-								<p class="item-intro text-muted">Lorem ipsum dolor sit amet
-									consectetur.</p>
-								<img class="img-fluid d-block mx-auto"
-									src="img/portfolio/obelab.png" alt="">
+								<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+								<img class="img-fluid d-block mx-auto" src="img/portfolio/obelab.png" alt="">
+
+								<!-- Swiper -->
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide"><img class="img-fluid d-block mx-auto" src="img/portfolio/obelab.png" alt=""></div>
+										<div class="swiper-slide"><img class="img-fluid d-block mx-auto" src="img/portfolio/obelab.png" alt=""></div>
+										<div class="swiper-slide"><img class="img-fluid d-block mx-auto" src="img/portfolio/obelab.png" alt=""></div>
+									</div>
+									<!-- Add Arrows -->
+									<div class="swiper-button-next"></div>
+									<div class="swiper-button-prev"></div>
+								</div>
+
 								<p>Use this area to describe your project. Lorem ipsum dolor
 									sit amet, consectetur adipisicing elit. Est blanditiis dolorem
 									culpa incidunt minus dignissimos deserunt repellat aperiam
@@ -740,5 +778,17 @@
 	<!-- Custom scripts for this template -->
 	<script src="js/agency.min.js"></script>
 
+	<!-- Swiper JS -->
+	<script src="js/swiper.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			navigation : {
+				nextEl : '.swiper-button-next',
+				prevEl : '.swiper-button-prev',
+			},
+		});
+	</script>
 </body>
 </html>
