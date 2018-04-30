@@ -18,7 +18,6 @@
 <link rel="shortcut icon" href="img/favicon.ico">
 <!-- Bootstrap core -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
-
 <!-- Custom fonts for this template -->
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -30,22 +29,24 @@
 <link href="css/agency.min.css" rel="stylesheet">
   
 <style>
-.daft :hover, .timeline-image :hover, .rounded-circle:hover, .fa-4x:hover
-	{ /* img 마우스 오버시*/
+.daft :hover, .timeline-image :hover, .rounded-circle:hover, .fa-4x:hover {
+	/* img 마우스 오버시 */
 	cursor: pointer;
 	/* 마우스 오버시 이미지 크기를 1.1 배만큼 확대시킨다. */
 	transform: scale(1.1);
 	-o-transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
-	/* 마우스 오버시 이미지가 즉시 커지지않고 30.5 second 의 시간에 걸쳐 커진다 애니메이션 효과*/
+	/* 마우스 오버시 이미지가 즉시 커지지않고 30.5 second 의 시간에 걸쳐 커진다 애니메이션 효과 */
 	transition: transform .35s;
 	-o-transition: transform .35s;
 	-moz-transition: transform .35s;
 	-webkit-transition: transform .35s;
 }
 
+
 img {
+	/* 이미지 드래그방지 */
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
@@ -54,7 +55,9 @@ img {
 	user-drag: none;
 	-webkit-touch-callout: none;
 }
+
 </style>
+
 </head>
 
 <body id="page-top">
@@ -62,11 +65,8 @@ img {
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
 		<div class="container">
 			<a class="navbar-brand js-scroll-trigger" href="#page-top">Andy Kim's Blog</a>
-			<button class="navbar-toggler navbar-toggler-right" type="button"
-				data-toggle="collapse" data-target="#navbarResponsive"
-				aria-controls="navbarResponsive" aria-expanded="false"
-				aria-label="Toggle navigation">
-				Menu <i class="fa fa-bars"></i>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+				aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> Menu <i class="fa fa-bars"></i>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav text-uppercase ml-auto">
@@ -86,8 +86,7 @@ img {
 			<div class="intro-text">
 				<div class="intro-lead-in">Welcome To My Blog!</div>
 				<div class="intro-heading text-uppercase">It's Nice To Meet 	You</div>
-				<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-					href="#team">Show Me More</a>
+				<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#team">Show Me More</a>
 			</div>
 		</div>
 	</header>
@@ -200,7 +199,7 @@ img {
 							<div class="portfolio-hover-content">
 								<i class="fa fa-plus fa-3x"></i>
 							</div>
-						</div> <img class="img-fluid" src="img/portfolio/thumbnail/obelab_thumbnail.png" alt="">
+						</div><img class="img-fluid" src="img/portfolio/thumbnail/obelab_thumbnail.png" alt="">
 					</a>
 					<div class="portfolio-caption">
 						<h4>OBELAB</h4>
@@ -215,7 +214,7 @@ img {
 							<div class="portfolio-hover-content">
 								<i class="fa fa-plus fa-3x"></i>
 							</div>
-						</div> <img class="img-fluid" src="img/portfolio/thumbnail/style_thumbnail.png" alt="">
+						</div><img class="img-fluid" src="img/portfolio/thumbnail/style_thumbnail.png" alt="">
 					</a>
 					<div class="portfolio-caption">
 						<h4>Coreriver Style</h4>
@@ -230,7 +229,7 @@ img {
 							<div class="portfolio-hover-content">
 								<i class="fa fa-plus fa-3x"></i>
 							</div>
-						</div> <img class="img-fluid" src="img/portfolio/thumbnail/friends_thumbnail.png" alt="">
+						</div><img class="img-fluid" src="img/portfolio/thumbnail/friends_thumbnail.png" alt="">
 					</a>
 					<div class="portfolio-caption">
 						<h4>Friends Shop</h4>
@@ -245,7 +244,7 @@ img {
 							<div class="portfolio-hover-content">
 								<i class="fa fa-plus fa-3x"></i>
 							</div>
-						</div> <img class="img-fluid" src="img/portfolio/thumbnail/blog_thumbnail.png" alt="">
+						</div><img class="img-fluid" src="img/portfolio/thumbnail/blog_thumbnail.png" alt="">
 					</a>
 					<div class="portfolio-caption">
 						<h4>Andy's Blog</h4>
@@ -260,7 +259,7 @@ img {
 							<div class="portfolio-hover-content">
 								<i class="fa fa-plus fa-3x"></i>
 							</div>
-						</div> <img class="img-fluid" src="img/portfolio/thumbnail/sqa_thumbnail.png" alt="">
+						</div><img class="img-fluid" src="img/portfolio/thumbnail/sqa_thumbnail.png" alt="">
 					</a>
 					<div class="portfolio-caption">
 						<h4>SQA</h4>
@@ -298,7 +297,7 @@ img {
 			<div class="row">
 				<div class="col-lg-12">
 					<ul class="timeline">
-					
+						<!-- about1 -->
 						<li class="timeline-inverted">
 							<div class="timeline-image">
 								<img class="rounded-circle img-fluid" src="img/about/coreriver.png" alt="">
@@ -316,6 +315,7 @@ img {
 							</div>
 						</li>
 						
+						<!-- about2 -->
 						<li>
 							<div class="timeline-image" style="background-color:#ffffff;">
 								<img class="rounded-circle img-fluid" src="img/about/kh.png"alt="">
@@ -327,13 +327,14 @@ img {
 								</div>
 								<div class="timeline-body">
 									<p class="text-muted">
-									- 교육과정 : NCS 기업이 요구하는 JAVA & WEB<br>
-									개발자 양성과정 수료
+										- 교육과정 : NCS 기업이 요구하는 JAVA & WEB<br>
+										개발자 양성과정 수료
 									</p>
 								</div>
 							</div>
 						</li>
 						
+						<!-- about3 -->
 						<li class="timeline-inverted">
 							<div class="timeline-image">
 								<img class="rounded-circle img-fluid" src="img/about/mod.png" alt="">
@@ -345,13 +346,14 @@ img {
 								</div>
 								<div class="timeline-body">
 									<p class="text-muted">
-									- (주) 엠오디 : 병상관리 종합 솔루션 시스템<br>
-									- SK T-map / Taxi 모바일 
+										- (주) 엠오디 : 병상관리 종합 솔루션 시스템<br>
+										- SK T-map / Taxi 모바일 
 									</p>
 								</div>
 							</div>
 						</li>
 						
+						<!-- about4 -->
 						<li>
 							<div class="timeline-image">
 								<img class="rounded-circle img-fluid" src="img/about/univ.png" alt="">
@@ -363,17 +365,15 @@ img {
 								</div>
 								<div class="timeline-body">
 									<p class="text-muted">
-									- 컴퓨터정보통신공학부 졸업<br>
-									- 배명고등학교 졸업
+										- 컴퓨터정보통신공학부 졸업<br>
+										- 배명고등학교 졸업
 									</p>
 								</div>
 							</div>
 						</li>
 						<li class="timeline-inverted">
 							<div class="timeline-image">
-								<h4>
-									Be Part <br>Of My <br>Story!
-								</h4>
+								<h4>Be Part <br>Of My <br>Story!</h4>
 							</div>
 						</li>
 					</ul>
@@ -447,11 +447,12 @@ img {
 		</div>
 	</section>
  -->
-	<!-- Footer -->
+ 	<!-- footer border line -->
 	<div class="daft" style="position:relative; background:#999; height:30px; padding:0px; box-sizing:inherit; ">
 		<img src="img/favicon.ico" style="width:80px; position:absolute; top:-30px; left:50%; margin-left:-40px;">
 	</div>
 	
+	<!-- Footer -->
 	<footer>
 		<div class="container">
 			<div class="row">
@@ -493,7 +494,7 @@ img {
 								<h2 class="text-uppercase">OBELAB</h2>
 								<p class="item-intro text-muted">Brain imazing system</p>
 
-								<!-- Bootstrap arousel slide -->
+								<!-- Bootstrap carousel slide -->
 								<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 									<div class="carousel-inner">
 										<div class="carousel-item active">
@@ -528,10 +529,12 @@ img {
 
 								<ul class="list-inline" style="text-align:left;">
 									<li style="font-weight:bold;">기간</li>
-									<li>2018.02 ~ 2018.04</li><br>
+									<li>2018.02 ~ 2018.04</li>
+									<br>
 									
 									<li style="font-weight:bold;">주요기능</li>
-									<li>뇌파 분석데이터를 의사와 환자별로 관리하는 웹서비스</li><br>
+									<li>뇌파 분석데이터를 의사와 환자별로 관리하는 웹서비스</li>
+									<br>
 									
 									<li style="font-weight:bold;">수행업무</li>
 									<li>프로젝트 구성 / DB설계 / 일정관리 WBS작성</li>
@@ -548,10 +551,12 @@ img {
 									<li>DB : MySql 5.7.21</li>
 									<li>Framework : Spring3.0</li>
 									<li>REST API DOC : Swagger UI</li>
-									<li>협업 관리툴 : SVN, BitBuket, MS Office</li><br>
+									<li>협업 관리툴 : SVN, BitBuket, MS Office</li>
+									<br>
 									
 									<li style="font-weight:bold;">Front-end</li>
-									<li>HTML5, CSS3, Javascript, JQuery, Bootstrap</li><br>
+									<li>HTML5, CSS3, Javascript, JQuery, Bootstrap</li>
+									<br>
 									
 									<li style="font-weight:bold;">IDE</li>
 									<li>STS bundle 3.7.3 Release</li>
@@ -587,7 +592,7 @@ img {
 									Shirts Shopping Mall
 								</p>
 								
-								<!-- Bootstrap arousel slide -->
+								<!-- Bootstrap carousel slide -->
 								<div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
 									<div class="carousel-inner">
 										<div class="carousel-item active">
@@ -620,39 +625,42 @@ img {
 								
 								<ul class="list-inline" style="text-align:left;">
 									<li style="font-weight:bold;">기간</li>
-									<li>2017.04 ~ 2017.08</li><br>
-									
+									<li>2017.04 ~ 2017.08</li>
+									<br>									
 									
 									<li style="font-weight:bold;">주요기능</li>
-									<li>셔츠 커스터마이징 기능을 메인으로 한 웹 쇼핑몰</li><br>
+									<li>셔츠 커스터마이징 기능을 메인으로 한 웹 쇼핑몰</li>
+									<br>
 									
 									<li style="font-weight:bold;">서비스 구성</li>
-									<li>쇼핑몰, 관리자</li><br>
+									<li>쇼핑몰, 관리자</li>
+									<br>
 								
 									<li style="font-weight:bold;">구성</li>
 									<li>e-sens shopping mall sloution 기반 커스터마이징</li>
 									<li>Server : Linux</li>
 									<li>Server OS : CentOS 7</li>
 									<li>Language : PHP 5.3</li>
-									<li>DB : Mysql 5.7.21</li><br>
+									<li>DB : Mysql 5.7.21</li>
+									<br>
 									
 									<li style="font-weight:bold;">수행업무</li>
 									<li>사용 페이지 및 관리자페이지 게시판과 외부API를 활용한 기능구현</li>
 									<li>웹(Back-end, Front-end)</li>
-									<li>외부 API연동 (로그인, 공유기능, 결제모듈)</li><br>
+									<li>외부 API연동 (로그인, 공유기능, 결제모듈)</li>
+									<br>
 									
 									<li style="font-weight:bold;">Front-end</li>
-									<li>HTML5, CSS3, Javascript, JQuery</li><br>
+									<li>HTML5, CSS3, Javascript, JQuery</li>
+									<br>
 									
 									<li style="font-weight:bold;">IDE</li>
-									<li>Sublime Text3</li><br>
-									
+									<li>Sublime Text3</li>
 <!-- 									<li>
 									<div class="carousel-inner">
 										<iframe style="width:100%;" width="500" height="250" src="https://www.youtube.com/embed/VggOi9DcM3g" frameborder="0" allowfullscreen></iframe>
 									</div>
 									</li> -->
-									
 								</ul>
 								
 								<button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -686,7 +694,7 @@ img {
 									Character Shopping Mall
 								</p>
 									
-								<!-- Bootstrap arousel slide -->
+								<!-- Bootstrap carousel slide -->
 								<div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
 									<div class="carousel-inner">
 										<div class="carousel-item active">
@@ -720,20 +728,24 @@ img {
 								
 								<ul class="list-inline" style="text-align:left;">
 									<li style="font-weight:bold;">기간</li>
-									<li>2016.02 ~ 2016.03</li><br>
+									<li>2016.02 ~ 2016.03</li>
+									<br>
 									
 									<li style="font-weight:bold;">주요기능</li>
-									<li>Web 쇼핑몰 (개인 프로젝트)</li><br>
+									<li>Web 쇼핑몰 (개인 프로젝트)</li>
+									<br>
 								
 									<li style="font-weight:bold;">구성</li>
 									<li>Server : Apache Tomcat 8.0</li>
 									<li>Language : JAVA / JSP</li>
 									<li>DB : Oracle 11g XE</li>
 									<li>Framework : Spring3.0</li>
-									<li>협업 관리툴 : Github</li><br>
+									<li>협업 관리툴 : Github</li>
+									<br>
 									
 									<li style="font-weight:bold;">Front-end</li>
-									<li>Javascript, JQuery, Bootstrap</li><br>
+									<li>Javascript, JQuery, Bootstrap</li>
+									<br>
 									
 									<li style="font-weight:bold;">IDE</li>
 									<li>STS bundle 4.3.6 Release</li>
@@ -769,7 +781,7 @@ img {
 									Andy's Portfolio Blog
 								</p>
 								
-									<!-- Bootstrap arousel slide -->
+									<!-- Bootstrap carousel slide -->
 									<div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
 										<div class="carousel-inner">
 											<div class="carousel-item active">
@@ -793,27 +805,25 @@ img {
 									</div>
 									
 									<p>
-										Git blog 를 활용하여 개인 포트폴리오 및 정보를 기록하고자 개설하게된 개인 블로그 입니다.
+										개인 포트폴리오 및 정보를 기록, 공유 하고자 개설하게된 개인 블로그 입니다.
 									</p>
 								
 								<ul class="list-inline" style="text-align:left;">
 									<li style="font-weight:bold;">기간</li>
-									<li>2018.04 ~ NOW</li><br>
+									<li>2018.04 ~ NOW</li>
+									<br>
 									
 									<li style="font-weight:bold;">소속</li>
-									<li>개인 블로그 운영</li><br>
-									
-									<li style="font-weight:bold;">주요기능</li>
-									<li>포트폴리오 조회 및 관리</li><br>
-								
-									<li style="font-weight:bold;">구성</li>
-									<li>Gitblog</li><br>
+									<li>개인 블로그 운영</li>
+									<br>
 									
 									<li style="font-weight:bold;">Front-end</li>
-									<li>HTML5, CSS, Javascript, JQuery, Bootstrap Theme</li><br>
+									<li>HTML5, CSS, Javascript, JQuery, Bootstrap Theme</li>
+									<br>
 									
 									<li style="font-weight:bold;">Tools</li>
-									<li>Sublime Text3</li><br>
+									<li>Sublime Text3</li>
+									<br>
 								</ul>
 								
 								<button class="btn btn-primary" data-dismiss="modal" type="button">
@@ -841,13 +851,13 @@ img {
 						<div class="col-lg-8 mx-auto">
 							<div class="modal-body">
 								<!-- Project Details Go Here -->
-								<h2 class="text-uppercase">SQA 경력 기술</h2>
+								<h2 class="text-uppercase">SQA 경력</h2>
 								<p class="item-intro text-muted">
 									Lorem ipsum dolor sit amet
 									consectetur.
 								</p>
 									
-								<!-- Bootstrap arousel slide -->
+								<!-- Bootstrap carousel slide -->
 								<div id="carouselExampleControls5" class="carousel slide" data-ride="carousel">
 									<div class="carousel-inner">
 										<div class="carousel-item active">
@@ -879,38 +889,46 @@ img {
 								<ul class="list-inline" style="text-align:left;">
 									
 									<li style="font-weight:bold;">근속 기간</li>
-									<li>2016.04 ~ 2016.05</li><br>
+									<li>2016.04 ~ 2016.05</li>
+									<br>
 									
 									<li style="font-weight:bold;">소속</li>
-									<li>프리랜서(1개월 단기 프로젝트)</li><br>
+									<li>프리랜서(1개월 단기 프로젝트)</li>
+									<br>
 									
 									<li style="font-weight:bold;">주요 업무</li>
 									<li>SK T map & T taxi </li>
 									<li>모바일 App 기능 Test</li>
 									<li>Test case 및 CheckList 작성 : 기능/비기능성 테스트 진행</li>
+									<br>
 									
 									<hr>
 								
 									<li style="font-weight:bold;">근속 기간</li>
-									<li>2013.05 ~ 2015.06</li><br>
+									<li>2013.05 ~ 2015.06</li>
+									<br>
 									
 									<li style="font-weight:bold;">소속</li>
-									<li>(주) 엠오디</li><br>
+									<li>(주) 엠오디</li>
+									<br>
 								
 									<li style="font-weight:bold;">주요 업무</li>
 									<li>안드로이드 기반 Smart Tablet SQA</li>
 									<li>사용성에 대한 Blckbox Testing</li>
 									<li>Test case 및 CheckList 작성 : 기능/비기능성 테스트 진행</li>
-									<li>Side effect Testing</li><br>
+									<li>Side effect Testing</li>
+									<br>
 									
 									<li style="font-weight:bold;">서브 업무</li>
 									<li>device repair (mod tablet & settop box)</li>
 									<li>방송중계 Settop box 서비스 관리</li>
 									<li>PC 원격접속 포트포워딩 및 네트워크 설정</li>
-									<li>서버 유지보수 관리</li><br>
+									<li>서버 유지보수 관리</li>
+									<br>
 									
 									<li style="font-weight:bold;">협업 관리 툴</li>
-									<li>Mantis bug traker</li><br>
+									<li>Mantis bug traker, MS office</li>
+									<br>
 								</ul>
 								
 								<button class="btn btn-primary" data-dismiss="modal" type="button">
