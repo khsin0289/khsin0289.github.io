@@ -1,12 +1,15 @@
 # [Andy's Blog](https://khsin0289.github.io/)
 
-[Andy's Blog](https://khsin0289.github.io/)는  Bootstrap 테마를 바탕으로 제 개인 포트폴리오 및 정보를 제공하고자 GitBlog를 개설하게 되었습니다.
+[Andy's Blog](https://khsin0289.github.io/)는 Bootstrap 테마를 바탕으로 제 개인 포트폴리오 및 정보를 제공하고자 GitBlog를 개설하게 되었습니다.
+개발자로서 History를 기록하고, 보기 쉽게 표현하며 더 나아가 제가 가진 정보를 공유하고자 합니다.
+이제막 개발자로 시작하여 부족한점이 많지만 저와 같은 꿈을 갖고 발전하고자 하는 모든 이에게 도움이 되길 기원합니다.
+2018.04.30
 
 ## Preview
 
 [![Agency Preview](https://khsin0289.github.io/img/portfolio/thumbnail/blog_thumbnail.png)](https://khsin0289.github.io/)
 
-**[View Live Preview](https://khsin0289.github.io/)**
+<!-- **[View Live Preview](https://khsin0289.github.io/)** -->
 
 <!-- ## Status
 
