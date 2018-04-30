@@ -7,7 +7,7 @@
 
 ## Preview
 
-[!Andy Preview](https://khsin0289.github.io/img/readme.png)](https://khsin0289.github.io/)
+[!Agency Preview](https://khsin0289.github.io/img/readme.png)](https://khsin0289.github.io/)
 
 <!-- **[View Live Preview](https://khsin0289.github.io/)** -->
 
