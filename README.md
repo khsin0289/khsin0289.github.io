@@ -1,9 +1,9 @@
 # [Andy's Blog](https://khsin0289.github.io/)
 
-[Andy's Blog](https://khsin0289.github.io/)는 [Bootstrap 테마](https://startbootstrap.com/)를 바탕으로
-개인 포트폴리오 및 정보를 제공하고자 [Github](https://github.com/) 블로그를 를 개설하게 되었습니다.
-개발자로서 History를 기록하고, 보기 쉽게 표현하며 더 나아가 제가 가진 정보를 공유하고자 합니다.
-이제막 개발자로 시작하여 부족한점이 많지만 저와 같은 꿈을 갖고 발전하고자 하는 모든 이에게 도움이 되길 기원합니다.
+[Andy's Blog](https://khsin0289.github.io/)는 [Bootstrap 테마](https://startbootstrap.com/)를 기반으로 [Github](https://github.com/) 블로그를 개설하게 되었습니다.
+
+개발자로서 History를 기록하고, 보기쉽게 표현하며 더 나아가 저만의 경험과 정보,지식을 공유하고자 합니다.
+저와같은 꿈을 갖고있는 모든 이에게 조금이나마 도움이 되길 기원합니다.
 
 ## Preview
 
