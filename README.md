@@ -1,22 +1,22 @@
 # [Andy's Blog](https://khsin0289.github.io/)
 
-[Andy's Blog](https://khsin0289.github.io/) Bootstrap 테마를 바탕으로 제 개인 포트폴리오 및 정보를 제공하고자 GitBlog를 개설하게 되었습니다.
+[Andy's Blog](https://khsin0289.github.io/)는  Bootstrap 테마를 바탕으로 제 개인 포트폴리오 및 정보를 제공하고자 GitBlog를 개설하게 되었습니다.
 
 ## Preview
 
-[![Agency Preview](https://khsin0289.github.io/img/portfolio/04-thumbnail.jpg)](https://khsin0289.github.io/)
+[![Agency Preview](https://khsin0289.github.io/img/portfolio/thumbnail/blog_thumbnail.png)](https://khsin0289.github.io/)
 
 **[View Live Preview](https://khsin0289.github.io/)**
 
-## Status
+<!-- ## Status
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/LICENSE)
 [![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
 [![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-agency.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-agency)
 [![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency?type=dev)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency?type=dev) -->
 
-## Download and Installation
+<!-- ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
 * [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/agency/)
@@ -24,7 +24,7 @@ To begin using this template, choose one of the following options to get started
 * Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
 * [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-agency)
 
-## Usage
+## Usage 
 
 ### Basic Usage
 
@@ -65,7 +65,7 @@ Start Bootstrap was created by and is maintained by **[David Miller](http://davi
 * https://github.com/davidtmiller
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
+-->
 ## Copyright and License
 
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+Copyright 2018.04 Andy
