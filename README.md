@@ -7,7 +7,7 @@
 
 ## Preview
 
-[!Agency Preview](https://khsin0289.github.io/img/readme.png)](https://khsin0289.github.io/)
+[![Andy's Blog Preview](https://khsin0289.github.io/img/readme.png)](https://khsin0289.github.io/)
 
 <!-- **[View Live Preview](https://khsin0289.github.io/)** -->
 
@@ -68,8 +68,7 @@ Start Bootstrap was created by and is maintained by **[David Miller](http://davi
 * https://github.com/davidtmiller
 
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
+-->
 ## Copyright and License
 
 Copyright 2018.04 Andy
--->
