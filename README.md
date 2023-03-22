@@ -1,6 +1,6 @@
-# [Andy's Blog](https://khsin0289.github.io/)
+# [Kim's Blog](https://khsin0289.github.io/)
 
-[Andy's Blog](https://khsin0289.github.io/)는 [Bootstrap 테마](https://startbootstrap.com/)를 기반으로 [Github](https://github.com/) 블로그를 개설하게 되었습니다.
+[Kim's Blog](https://khsin0289.github.io/)는 [Bootstrap 테마](https://startbootstrap.com/)를 기반으로 [Github](https://github.com/) 블로그를 개설하게 되었습니다.
 
 개발자로서 History를 기록하고, 보기쉽게 표현하며 더 나아가 저만의 경험과 정보,지식을 공유하고자 합니다.
 저와같은 꿈을 갖고있는 모든 이에게 조금이나마 도움이 되길 기원합니다.
