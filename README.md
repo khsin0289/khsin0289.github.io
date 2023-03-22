@@ -7,7 +7,7 @@
 
 ## Preview
 
-[![Andy's Blog Preview](https://khsin0289.github.io/img/readme.png)](https://khsin0289.github.io/)
+[![Kims's Blog Preview](https://khsin0289.github.io/img/readme.png)](https://khsin0289.github.io/)
 
 <!-- **[View Live Preview](https://khsin0289.github.io/)** -->
 
@@ -71,6 +71,6 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 ## Copyright and License
 
-Copyright 2018.04 Andy
+Copyright 2018.04 Kim
 
 -->
